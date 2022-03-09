@@ -37,6 +37,18 @@ The data that is displayed in the Office 365 Client Management dashboard comes f
 
 The Office 365 Client Management dashboard starts displaying data as hardware inventory is reported.
 
+### Enable user policy on clients
+
+The Office inventory library scan will be triggered on the devices by a schedule for each user account.
+If the user policy is not enabled for a device the above scan will not take place. 
+
+1. Enable user policy on clients, if it isn't yet enabled. For details, see [Enable user policy on clients](../../core/clients/deploy/about-client-settings.md#enable-user-policy-on-clients).
+2. In the Configuration Manager console, navigate to **Administration** > **Client Settings** > **Default Client Settings** or a custom Client Settings.  
+3. On the **Home** tab, in the **Properties** group, click **Properties**.  
+4. In the opened Client Settings, click **Client Policy**.
+5. Under **Enable user policy on clients** setting, choose **Yes**.  
+6. Click **OK** to save your changes and close the Client Settings dialog box.
+
 ### Connectivity for the top-level site server
 
 *(Introduced in version 1906 as a prerequisite)*
